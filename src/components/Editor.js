@@ -35,6 +35,7 @@ const Editor = ({ displayName, language, value, onChange }) => {
         options={{
           lineWrapping: true,
           lint: true,
+
           mode: language,
           theme: "material",
           lineNumbers: true,
